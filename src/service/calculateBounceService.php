@@ -11,6 +11,10 @@ namespace service;
 
 class calculateBounceService
 {
+    /**
+     * @param $result
+     * @return int
+     */
     static function getBounce($result)
     {
         $totalBounces = 0;
