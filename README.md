@@ -1,6 +1,9 @@
 # ses-bounce-monitoring
-Small script for AWS SES bounce monitoring
+Small script for AWS SES bounce rate monitoring
 
+### Find more 
+- [5 Ways to Decrease Your Bounce Rate](https://aws.amazon.com/blogs/ses/5-ways-to-decrease-your-bounce-rate/)
+- [Email Definitions: Bounces](https://aws.amazon.com/blogs/ses/email-definitions-bounces/)
 
 ## Project Setup
 ```bash
@@ -19,7 +22,7 @@ To configure the script, set the follow parameters:
     └── config
         └── parameters.yml
 ```
-- src/config/parameters.yml - Add your SES credentials.
+- src/config/parameters.yml - Add your AWS credentials.
 
 ## RUN
 
@@ -28,8 +31,9 @@ $ php index.php
 ```
 
 ## Result
-Will return the day bounce rating.
-
+Will return the day bounce rate.
+- Bounce rate usually refers to the number of hard bounces per number of emails sent, and is expressed as a percentage
+- For example, if we sent 10,000 emails and 222 of them bounced, our bounce rate would be 222 ÷ 10,000, or 2.22%. 
 ```bash
-35
+3
 ```
