@@ -20,7 +20,6 @@ class calculateBounceService
         $totalBounces[] = 0;
 
         foreach ($result['SendDataPoints'] as $sendDataPoint) {
-
             if (self::hasStatisticsToday($sendDataPoint)) {
                 if ($sendDataPoint['Bounces'] > 0) {
                     $totalBounces[] = intval($sendDataPoint['Bounces']);

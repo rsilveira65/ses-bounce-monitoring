@@ -16,13 +16,10 @@ $parameters = configService::getConfig();
 $client = sesClientService::getSESClient($parameters);
 
 try {
-
     echo calculateBounceService::getBounce(
         $client->getSendStatistics([])
     ) . PHP_EOL;
-
 } catch (Exception $e) {
-
     echo($e->getMessage() . PHP_EOL);
 }
 
