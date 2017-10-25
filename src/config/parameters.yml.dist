@@ -1,0 +1,3 @@
+access_key: 'YourAWSAccessKey'
+secret_key: 'YourAWSSecretKey'
+region: 'eu-west-1'
