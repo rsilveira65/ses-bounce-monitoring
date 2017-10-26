@@ -8,7 +8,6 @@
 
 namespace service;
 
-
 class calculateBounceService
 {
     /**
@@ -38,5 +37,4 @@ class calculateBounceService
     {
         return date('Ymd') == date('Ymd', strtotime($sendDataPoint['Timestamp']));
     }
-
 }
