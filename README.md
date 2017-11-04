@@ -37,3 +37,8 @@ Will return the day bounce rate.
 ```bash
 3
 ```
+
+## Unit Tests
+```bash
+vendor/bin/phpunit src/tests
+```
