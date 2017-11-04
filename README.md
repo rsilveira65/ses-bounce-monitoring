@@ -1,7 +1,6 @@
-# ses-bounce-monitoring
-Small script for AWS SES bounce rate monitoring
+Small script written in PHP for AWS SES bounce rate monitoring. Also, it can easily be integrated with [Nagios]('https://www.nagios.org') or another tool.
 
-### Find more 
+### But, Why?? Find more about SES and Bounce Rate:
 - [5 Ways to Decrease Your Bounce Rate](https://aws.amazon.com/blogs/ses/5-ways-to-decrease-your-bounce-rate/)
 - [Email Definitions: Bounces](https://aws.amazon.com/blogs/ses/email-definitions-bounces/)
 
