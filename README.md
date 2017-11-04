@@ -39,5 +39,5 @@ Will return the day bounce rate.
 
 ## Unit Tests
 ```bash
-composer test
+$ composer test
 ```
