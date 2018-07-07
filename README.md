@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/rsilveira65/ses-bounce-monitoring.svg?branch=master)](https://travis-ci.org/rsilveira65/ses-bounce-monitoring)
+[![CircleCI](https://circleci.com/gh/rsilveira65/ses-bounce-monitoring.svg?style=svg)](https://circleci.com/gh/rsilveira65/ses-bounce-monitoring)
 
 Small script written in PHP for AWS SES bounce rate monitoring. Also, it can easily be integrated with [Nagios]('https://www.nagios.org') or another tool.
 
