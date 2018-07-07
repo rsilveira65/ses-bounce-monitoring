@@ -34,9 +34,9 @@ class calculateBounceServiceTest extends TestCase
         ];
 
         $this->assertEquals(
-            12,
+            18,
             calculateBounceService::getBounce($result),
-            'When getBounce the result should equal 12'
+            'When getBounce the result should equal 18'
         );
     }
 
